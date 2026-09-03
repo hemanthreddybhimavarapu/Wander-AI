@@ -126,9 +126,9 @@ export const DESTINATIONS_PART5: Destination[] = [
     region: 'Asia',
     tagline: 'City of Pearls, Nizam Royal Splendor, and World-Famous Biryani',
     description: 'The historic capital of the Nizams, where centuries-old stone citadels, intricate minarets, and pearl markets blend seamlessly with a high-tech modern metropolis.',
-    image: 'https://images.unsplash.com/photo-1609137144822-4217112024fa?auto=format&fit=crop&w=1600&q=85',
+    image: 'https://images.unsplash.com/photo-1605649487212-47bdab064df7?auto=format&fit=crop&w=1600&q=85',
     gallery: [
-      'https://images.unsplash.com/photo-1609137144822-4217112024fa?auto=format&fit=crop&w=1200&q=80',
+      'https://images.unsplash.com/photo-1605649487212-47bdab064df7?auto=format&fit=crop&w=1200&q=80',
       'https://images.unsplash.com/photo-1628155930542-3c7a64e2c833?auto=format&fit=crop&w=1200&q=80'
     ],
     coordinates: { lat: 17.385, lon: 78.4867 },
@@ -148,7 +148,7 @@ export const DESTINATIONS_PART5: Destination[] = [
         name: 'Charminar & Laad Bazaar',
         category: '1591 Monument & Mosque',
         description: 'The iconic four-minaret monument standing at the heart of historic bazaars famed for glass bangles and pearls.',
-        image: 'https://images.unsplash.com/photo-1609137144822-4217112024fa?auto=format&fit=crop&w=1000&q=80',
+        image: 'https://images.unsplash.com/photo-1605649487212-47bdab064df7?auto=format&fit=crop&w=1000&q=80',
         location: 'Old City',
         recommendedDuration: '2 Hours',
         curatorTip: 'Sip authentic Irani Chai with Osmania biscuits at Nimrah Cafe overlooking the monument.'
