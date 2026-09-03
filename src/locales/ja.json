@@ -1,27 +1,27 @@
 {
   "nav": {
     "brand": "WanderAI",
-    "explore": "Explorer",
-    "destinations": "Destinations",
-    "planner": "Planificateur IA",
-    "weather": "Météo",
-    "favorites": "Favoris",
-    "settings": "Paramètres",
-    "useLocation": "Explorer"
+    "explore": "探検する",
+    "destinations": "目的地",
+    "planner": "AI旅プランナー",
+    "weather": "天気予報",
+    "favorites": "お気に入り",
+    "settings": "設定",
+    "useLocation": "探検する"
   },
   "hero": {
     "badge": "AI Autonomous Travel Assistant",
-    "headlinePrefix": "Partez vers des lieux qui valent la peine d'",
-    "headlineSuffix": "être vécus.",
-    "subtitle": "Découvrez des destinations d'exception avec données météo en temps réel et itinéraires personnalisés par IA.",
-    "searchPlaceholder": "Destinations...",
-    "cta": "Explorer l'Horizon",
+    "headlinePrefix": "心に刻まれる",
+    "headlineSuffix": "最高の旅へ出かけよう。",
+    "subtitle": "リアルタイムの気象情報と高度なAIが織りなす、あなただけのオーダーメイド旅プラン。",
+    "searchPlaceholder": "目的地...",
+    "cta": "地平線を探検する",
     "gpsButton": "GPS",
     "closestHorizon": "Closest"
   },
   "destinations": {
-    "title": "Horizons d'Exception",
-    "subtitle": "Quatorze sanctuaires choisis pour leur culture, architecture, gastronomie et beauté.",
+    "title": "厳選された世界の絶景",
+    "subtitle": "文化、建築、美食、そして壮大な自然が融合する14の旅の聖地。",
     "filterAll": "All",
     "viewDetails": "Explore",
     "featured": "Featured",
@@ -49,8 +49,8 @@
     "back": "Back"
   },
   "planner": {
-    "title": "Architecte d'Itinéraires par IA",
-    "subtitle": "Laissez Google Gemini concevoir votre expédition personnalisée au jour le jour.",
+    "title": "自律型AIトラベルアーキテクト",
+    "subtitle": "Google Geminiがあなた専用の洗練された日毎の旅程を生成します。",
     "step1": "Destination",
     "step2": "Duration",
     "step3": "Travelers",
@@ -66,14 +66,14 @@
     "budgetLabel": "Budget",
     "styleLabel": "Style",
     "interestsLabel": "Interests",
-    "generateBtn": "Concevoir Mon Expédition",
+    "generateBtn": "旅程をデザインする",
     "generating": "Synthesizing...",
     "sharePlan": "Share",
     "savePlan": "Save",
     "regenerate": "Regenerate"
   },
   "weather": {
-    "title": "Radar Météorologique",
+    "title": "気象テレメトリー",
     "subtitle": "Live meteorological telemetry.",
     "searchPlaceholder": "City...",
     "feelsLike": "Feels like",
@@ -86,13 +86,13 @@
     "forecast": "5-Day Forecast"
   },
   "ai": {
-    "title": "Concierge WanderAI",
+    "title": "WanderAI コンシェルジュ",
     "subtitle": "AI Travel Concierge",
-    "placeholder": "Posez vos questions sur les monuments, bistrots, saisons...",
+    "placeholder": "観光名所、グルメ、最適な時期など何でもお尋ねください...",
     "thinking": "Thinking..."
   },
   "footer": {
-    "tagline": "Partez vers des lieux qui valent la peine d'être vécus.",
+    "tagline": "心に刻まれる最高の旅へ出かけよう。",
     "rights": "All rights reserved."
   },
   "common": {

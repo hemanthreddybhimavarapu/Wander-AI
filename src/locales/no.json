@@ -1,27 +1,27 @@
 {
   "nav": {
     "brand": "WanderAI",
-    "explore": "Explorer",
-    "destinations": "Destinations",
-    "planner": "Planificateur IA",
-    "weather": "Météo",
-    "favorites": "Favoris",
-    "settings": "Paramètres",
-    "useLocation": "Explorer"
+    "explore": "Utforsk",
+    "destinations": "Destinasjoner",
+    "planner": "AI-Planlegger",
+    "weather": "Vær",
+    "favorites": "Favoritter",
+    "settings": "Innstillinger",
+    "useLocation": "Utforsk"
   },
   "hero": {
     "badge": "AI Autonomous Travel Assistant",
-    "headlinePrefix": "Partez vers des lieux qui valent la peine d'",
-    "headlineSuffix": "être vécus.",
-    "subtitle": "Découvrez des destinations d'exception avec données météo en temps réel et itinéraires personnalisés par IA.",
-    "searchPlaceholder": "Destinations...",
-    "cta": "Explorer l'Horizon",
+    "headlinePrefix": "Reis til steder verdt å",
+    "headlineSuffix": "huske.",
+    "subtitle": "Oppdag håndplukkede reisemål med sanntidsvær og skreddersydde reiseruter med AI.",
+    "searchPlaceholder": "Destinasjoner...",
+    "cta": "Utforsk nå",
     "gpsButton": "GPS",
     "closestHorizon": "Closest"
   },
   "destinations": {
-    "title": "Horizons d'Exception",
-    "subtitle": "Quatorze sanctuaires choisis pour leur culture, architecture, gastronomie et beauté.",
+    "title": "Utvalgte Reisemål",
+    "subtitle": "Fjorten unike steder med rik kultur, arkitektur og natur.",
     "filterAll": "All",
     "viewDetails": "Explore",
     "featured": "Featured",
@@ -49,8 +49,8 @@
     "back": "Back"
   },
   "planner": {
-    "title": "Architecte d'Itinéraires par IA",
-    "subtitle": "Laissez Google Gemini concevoir votre expédition personnalisée au jour le jour.",
+    "title": "AI-Reisearkitekt",
+    "subtitle": "La kunstig intelligens skape den perfekte reiseplanen for deg.",
     "step1": "Destination",
     "step2": "Duration",
     "step3": "Travelers",
@@ -66,14 +66,14 @@
     "budgetLabel": "Budget",
     "styleLabel": "Style",
     "interestsLabel": "Interests",
-    "generateBtn": "Concevoir Mon Expédition",
+    "generateBtn": "Planlegg reisen",
     "generating": "Synthesizing...",
     "sharePlan": "Share",
     "savePlan": "Save",
     "regenerate": "Regenerate"
   },
   "weather": {
-    "title": "Radar Météorologique",
+    "title": "Værradar",
     "subtitle": "Live meteorological telemetry.",
     "searchPlaceholder": "City...",
     "feelsLike": "Feels like",
@@ -86,13 +86,13 @@
     "forecast": "5-Day Forecast"
   },
   "ai": {
-    "title": "Concierge WanderAI",
+    "title": "WanderAI Concierge",
     "subtitle": "AI Travel Concierge",
-    "placeholder": "Posez vos questions sur les monuments, bistrots, saisons...",
+    "placeholder": "Spør om opplevelser, mat eller reiseråd...",
     "thinking": "Thinking..."
   },
   "footer": {
-    "tagline": "Partez vers des lieux qui valent la peine d'être vécus.",
+    "tagline": "Reis til steder verdt å huske.",
     "rights": "All rights reserved."
   },
   "common": {

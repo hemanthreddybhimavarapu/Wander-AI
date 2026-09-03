@@ -15,11 +15,13 @@
     "headlineSuffix": "Remembering.",
     "subtitle": "Discover curated global destinations with real-time weather telemetry, bespoke multi-day itineraries, and multilingual artificial intelligence.",
     "searchPlaceholder": "Where does your wanderlust lead you? (e.g. Paris, Tokyo, Bali)...",
-    "cta": "Explore Horizon"
+    "cta": "Explore Horizon",
+    "gpsButton": "Locate Nearest Gateway",
+    "closestHorizon": "Closest Horizon"
   },
   "destinations": {
     "title": "Curated Planetary Horizons",
-    "subtitle": "Twelve handpicked sanctuaries of culture, architecture, gastronomy, and raw natural wonder.",
+    "subtitle": "Fourteen handpicked sanctuaries of culture, architecture, gastronomy, and raw natural wonder.",
     "filterAll": "All Horizons",
     "viewDetails": "Explore Gateway",
     "featured": "Curator's Spotlight",
@@ -42,7 +44,9 @@
     "liveWeather": "Atmospheric Radar",
     "planTrip": "Generate Bespoke Itinerary",
     "share": "Share",
-    "copied": "Link copied to clipboard."
+    "copied": "Link copied to clipboard.",
+    "askConcierge": "Ask Concierge",
+    "back": "Back"
   },
   "planner": {
     "title": "Autonomous Itinerary Architect",

@@ -1,27 +1,27 @@
 {
   "nav": {
     "brand": "WanderAI",
-    "explore": "Explorer",
-    "destinations": "Destinations",
-    "planner": "Planificateur IA",
-    "weather": "Météo",
-    "favorites": "Favoris",
-    "settings": "Paramètres",
-    "useLocation": "Explorer"
+    "explore": "અન્વેષણ",
+    "destinations": "સ્થળો",
+    "planner": "એઆઈ પ્લાનર",
+    "weather": "હવામાન",
+    "favorites": "પસંદગીઓ",
+    "settings": "સેટિંગ્સ",
+    "useLocation": "અન્વેષણ"
   },
   "hero": {
     "badge": "AI Autonomous Travel Assistant",
-    "headlinePrefix": "Partez vers des lieux qui valent la peine d'",
-    "headlineSuffix": "être vécus.",
-    "subtitle": "Découvrez des destinations d'exception avec données météo en temps réel et itinéraires personnalisés par IA.",
-    "searchPlaceholder": "Destinations...",
-    "cta": "Explorer l'Horizon",
+    "headlinePrefix": "યાદગાર સ્થળોની",
+    "headlineSuffix": "મુલાકાત લો.",
+    "subtitle": "વાસ્તવિક હવામાન અને એઆઈ દ્વારા વિશ્વના સુંદર સ્થળો શોધો.",
+    "searchPlaceholder": "સ્થળો...",
+    "cta": "શરૂ કરો",
     "gpsButton": "GPS",
     "closestHorizon": "Closest"
   },
   "destinations": {
-    "title": "Horizons d'Exception",
-    "subtitle": "Quatorze sanctuaires choisis pour leur culture, architecture, gastronomie et beauté.",
+    "title": "પસંદ કરેલા સ્થળો",
+    "subtitle": "સંસ્કૃતિ અને પ્રકૃતિની ૧૪ સુંદર જગ્યાઓ.",
     "filterAll": "All",
     "viewDetails": "Explore",
     "featured": "Featured",
@@ -49,8 +49,8 @@
     "back": "Back"
   },
   "planner": {
-    "title": "Architecte d'Itinéraires par IA",
-    "subtitle": "Laissez Google Gemini concevoir votre expédition personnalisée au jour le jour.",
+    "title": "એઆઈ પ્રવાસ પ્લાનર",
+    "subtitle": "તમારા પ્રવાસનું સુંદર આયોજન કરો.",
     "step1": "Destination",
     "step2": "Duration",
     "step3": "Travelers",
@@ -66,14 +66,14 @@
     "budgetLabel": "Budget",
     "styleLabel": "Style",
     "interestsLabel": "Interests",
-    "generateBtn": "Concevoir Mon Expédition",
+    "generateBtn": "પ્લાન બનાવો",
     "generating": "Synthesizing...",
     "sharePlan": "Share",
     "savePlan": "Save",
     "regenerate": "Regenerate"
   },
   "weather": {
-    "title": "Radar Météorologique",
+    "title": "હવામાન રડાર",
     "subtitle": "Live meteorological telemetry.",
     "searchPlaceholder": "City...",
     "feelsLike": "Feels like",
@@ -86,13 +86,13 @@
     "forecast": "5-Day Forecast"
   },
   "ai": {
-    "title": "Concierge WanderAI",
+    "title": "વાન્ડર એઆઈ સહાયક",
     "subtitle": "AI Travel Concierge",
-    "placeholder": "Posez vos questions sur les monuments, bistrots, saisons...",
+    "placeholder": "સ્થળો વિશે પૂછો...",
     "thinking": "Thinking..."
   },
   "footer": {
-    "tagline": "Partez vers des lieux qui valent la peine d'être vécus.",
+    "tagline": "યાદગાર સ્થળોની મુલાકાત લો.",
     "rights": "All rights reserved."
   },
   "common": {

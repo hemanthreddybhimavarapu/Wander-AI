@@ -1,27 +1,27 @@
 {
   "nav": {
     "brand": "WanderAI",
-    "explore": "Explorer",
-    "destinations": "Destinations",
-    "planner": "Planificateur IA",
-    "weather": "Météo",
-    "favorites": "Favoris",
-    "settings": "Paramètres",
-    "useLocation": "Explorer"
+    "explore": "استكشف",
+    "destinations": "الوجهات",
+    "planner": "مخطط الذكاء الاصطناعي",
+    "weather": "الطقس",
+    "favorites": "المفضلة",
+    "settings": "الإعدادات",
+    "useLocation": "استكشف"
   },
   "hero": {
     "badge": "AI Autonomous Travel Assistant",
-    "headlinePrefix": "Partez vers des lieux qui valent la peine d'",
-    "headlineSuffix": "être vécus.",
-    "subtitle": "Découvrez des destinations d'exception avec données météo en temps réel et itinéraires personnalisés par IA.",
-    "searchPlaceholder": "Destinations...",
-    "cta": "Explorer l'Horizon",
+    "headlinePrefix": "سافر إلى أماكن تستحق",
+    "headlineSuffix": "أن تُعاش.",
+    "subtitle": "اكتشف وجهات عالمية مختارة مع بيانات الطقس المباشرة وبرامج الرحلات المخصصة بالذكاء الاصطناعي.",
+    "searchPlaceholder": "الوجهات...",
+    "cta": "استكشف الآن",
     "gpsButton": "GPS",
     "closestHorizon": "Closest"
   },
   "destinations": {
-    "title": "Horizons d'Exception",
-    "subtitle": "Quatorze sanctuaires choisis pour leur culture, architecture, gastronomie et beauté.",
+    "title": "وجهات عالمية مختارة",
+    "subtitle": "أربعة عشر ملاذاً فريداً يجمع بين الثقافة والطبيعة الخلابة.",
     "filterAll": "All",
     "viewDetails": "Explore",
     "featured": "Featured",
@@ -49,8 +49,8 @@
     "back": "Back"
   },
   "planner": {
-    "title": "Architecte d'Itinéraires par IA",
-    "subtitle": "Laissez Google Gemini concevoir votre expédition personnalisée au jour le jour.",
+    "title": "مخطط الرحلات الذكي",
+    "subtitle": "دع الذكاء الاصطناعي يصمم لك برنامج رحلة متكامل يوماً بيوم.",
     "step1": "Destination",
     "step2": "Duration",
     "step3": "Travelers",
@@ -66,14 +66,14 @@
     "budgetLabel": "Budget",
     "styleLabel": "Style",
     "interestsLabel": "Interests",
-    "generateBtn": "Concevoir Mon Expédition",
+    "generateBtn": "صمم رحلتي",
     "generating": "Synthesizing...",
     "sharePlan": "Share",
     "savePlan": "Save",
     "regenerate": "Regenerate"
   },
   "weather": {
-    "title": "Radar Météorologique",
+    "title": "رادار الطقس الحي",
     "subtitle": "Live meteorological telemetry.",
     "searchPlaceholder": "City...",
     "feelsLike": "Feels like",
@@ -86,13 +86,13 @@
     "forecast": "5-Day Forecast"
   },
   "ai": {
-    "title": "Concierge WanderAI",
+    "title": "مساعد واندر الذكي",
     "subtitle": "AI Travel Concierge",
-    "placeholder": "Posez vos questions sur les monuments, bistrots, saisons...",
+    "placeholder": "اسأل عن المعالم، المطاعم، أو الأوقات المثالية...",
     "thinking": "Thinking..."
   },
   "footer": {
-    "tagline": "Partez vers des lieux qui valent la peine d'être vécus.",
+    "tagline": "سافر إلى أماكن تستحق أن تُعاش.",
     "rights": "All rights reserved."
   },
   "common": {

@@ -1,27 +1,27 @@
 {
   "nav": {
     "brand": "WanderAI",
-    "explore": "Explorer",
-    "destinations": "Destinations",
-    "planner": "Planificateur IA",
-    "weather": "Météo",
-    "favorites": "Favoris",
-    "settings": "Paramètres",
-    "useLocation": "Explorer"
+    "explore": "അന്വേഷിക്കുക",
+    "destinations": "സ്ഥലങ്ങൾ",
+    "planner": "എഐ പ്ലാനർ",
+    "weather": "കാലാവസ്ഥ",
+    "favorites": "പ്രിയപ്പെട്ടവ",
+    "settings": "ക്രമീകരണങ്ങൾ",
+    "useLocation": "അന്വേഷിക്കുക"
   },
   "hero": {
     "badge": "AI Autonomous Travel Assistant",
-    "headlinePrefix": "Partez vers des lieux qui valent la peine d'",
-    "headlineSuffix": "être vécus.",
-    "subtitle": "Découvrez des destinations d'exception avec données météo en temps réel et itinéraires personnalisés par IA.",
-    "searchPlaceholder": "Destinations...",
-    "cta": "Explorer l'Horizon",
+    "headlinePrefix": "ഓർമ്മയിൽ നിൽക്കുന്ന",
+    "headlineSuffix": "യാത്രകൾ ചെയ്യുക.",
+    "subtitle": "തത്സമയ കാലാവസ്ഥയും എഐ സാങ്കേതികവിദ്യയും ഉപയോഗിച്ച് ലോകം കാണുക.",
+    "searchPlaceholder": "സ്ഥലങ്ങൾ...",
+    "cta": "തുടങ്ങുക",
     "gpsButton": "GPS",
     "closestHorizon": "Closest"
   },
   "destinations": {
-    "title": "Horizons d'Exception",
-    "subtitle": "Quatorze sanctuaires choisis pour leur culture, architecture, gastronomie et beauté.",
+    "title": "ലോകോത്തര വിനോദസഞ്ചാര കേന്ദ്രങ്ങൾ",
+    "subtitle": "സംസ്കാരവും പ്രകൃതിഭംഗിയും നിറഞ്ഞ 14 ഇടങ്ങൾ.",
     "filterAll": "All",
     "viewDetails": "Explore",
     "featured": "Featured",
@@ -49,8 +49,8 @@
     "back": "Back"
   },
   "planner": {
-    "title": "Architecte d'Itinéraires par IA",
-    "subtitle": "Laissez Google Gemini concevoir votre expédition personnalisée au jour le jour.",
+    "title": "എഐ യാത്രാ പദ്ധതി",
+    "subtitle": "നിങ്ങൾക്കായി രൂപകൽപ്പന ചെയ്ത യാത്രാ പദ്ധതികൾ.",
     "step1": "Destination",
     "step2": "Duration",
     "step3": "Travelers",
@@ -66,14 +66,14 @@
     "budgetLabel": "Budget",
     "styleLabel": "Style",
     "interestsLabel": "Interests",
-    "generateBtn": "Concevoir Mon Expédition",
+    "generateBtn": "പദ്ധതി തയ്യാറാക്കുക",
     "generating": "Synthesizing...",
     "sharePlan": "Share",
     "savePlan": "Save",
     "regenerate": "Regenerate"
   },
   "weather": {
-    "title": "Radar Météorologique",
+    "title": "കാലാവസ്ഥാ റഡാർ",
     "subtitle": "Live meteorological telemetry.",
     "searchPlaceholder": "City...",
     "feelsLike": "Feels like",
@@ -86,13 +86,13 @@
     "forecast": "5-Day Forecast"
   },
   "ai": {
-    "title": "Concierge WanderAI",
+    "title": "വാണ്ടർ എഐ സഹായി",
     "subtitle": "AI Travel Concierge",
-    "placeholder": "Posez vos questions sur les monuments, bistrots, saisons...",
+    "placeholder": "യാത്രകളെക്കുറിച്ച് ചോദിക്കുക...",
     "thinking": "Thinking..."
   },
   "footer": {
-    "tagline": "Partez vers des lieux qui valent la peine d'être vécus.",
+    "tagline": "ഓർമ്മയിൽ നിൽക്കുന്ന യാത്രകൾ ചെയ്യുക.",
     "rights": "All rights reserved."
   },
   "common": {

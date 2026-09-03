@@ -1,27 +1,27 @@
 {
   "nav": {
     "brand": "WanderAI",
-    "explore": "Explorer",
-    "destinations": "Destinations",
-    "planner": "Planificateur IA",
-    "weather": "Météo",
-    "favorites": "Favoris",
-    "settings": "Paramètres",
-    "useLocation": "Explorer"
+    "explore": "Εξερεύνηση",
+    "destinations": "Προορισμοί",
+    "planner": "Σχεδιαστής AI",
+    "weather": "Καιρός",
+    "favorites": "Αγαπημένα",
+    "settings": "Ρυθμίσεις",
+    "useLocation": "Εξερεύνηση"
   },
   "hero": {
     "badge": "AI Autonomous Travel Assistant",
-    "headlinePrefix": "Partez vers des lieux qui valent la peine d'",
-    "headlineSuffix": "être vécus.",
-    "subtitle": "Découvrez des destinations d'exception avec données météo en temps réel et itinéraires personnalisés par IA.",
-    "searchPlaceholder": "Destinations...",
-    "cta": "Explorer l'Horizon",
+    "headlinePrefix": "Ταξιδέψτε σε μέρη που αξίζει να",
+    "headlineSuffix": "θυμάστε.",
+    "subtitle": "Ανακαλύψτε επιλεγμένους προορισμούς με ζωντανό καιρό και εξατομικευμένα δρομολόγια AI.",
+    "searchPlaceholder": "Προορισμοί...",
+    "cta": "Εξερεύνηση",
     "gpsButton": "GPS",
     "closestHorizon": "Closest"
   },
   "destinations": {
-    "title": "Horizons d'Exception",
-    "subtitle": "Quatorze sanctuaires choisis pour leur culture, architecture, gastronomie et beauté.",
+    "title": "Επιλεγμένοι Προορισμοί",
+    "subtitle": "Δεκατέσσερις μαγικοί προορισμοί πολιτισμού και φυσικού κάλλους.",
     "filterAll": "All",
     "viewDetails": "Explore",
     "featured": "Featured",
@@ -49,8 +49,8 @@
     "back": "Back"
   },
   "planner": {
-    "title": "Architecte d'Itinéraires par IA",
-    "subtitle": "Laissez Google Gemini concevoir votre expédition personnalisée au jour le jour.",
+    "title": "Αρχιτέκτονας Ταξιδιών AI",
+    "subtitle": "Αφήστε το Google Gemini να οργανώσει το ταξίδι σας μέρα με τη μέρα.",
     "step1": "Destination",
     "step2": "Duration",
     "step3": "Travelers",
@@ -66,14 +66,14 @@
     "budgetLabel": "Budget",
     "styleLabel": "Style",
     "interestsLabel": "Interests",
-    "generateBtn": "Concevoir Mon Expédition",
+    "generateBtn": "Σχεδίαση Ταξιδιού",
     "generating": "Synthesizing...",
     "sharePlan": "Share",
     "savePlan": "Save",
     "regenerate": "Regenerate"
   },
   "weather": {
-    "title": "Radar Météorologique",
+    "title": "Μετεωρολογικό Ραντάρ",
     "subtitle": "Live meteorological telemetry.",
     "searchPlaceholder": "City...",
     "feelsLike": "Feels like",
@@ -86,13 +86,13 @@
     "forecast": "5-Day Forecast"
   },
   "ai": {
-    "title": "Concierge WanderAI",
+    "title": "Βοηθός WanderAI",
     "subtitle": "AI Travel Concierge",
-    "placeholder": "Posez vos questions sur les monuments, bistrots, saisons...",
+    "placeholder": "Ρωτήστε για αξιοθέατα, φαγητό ή εποχές...",
     "thinking": "Thinking..."
   },
   "footer": {
-    "tagline": "Partez vers des lieux qui valent la peine d'être vécus.",
+    "tagline": "Ταξιδέψτε σε μέρη που αξίζει να θυμάστε.",
     "rights": "All rights reserved."
   },
   "common": {

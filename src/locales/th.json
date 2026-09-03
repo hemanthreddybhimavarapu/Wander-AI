@@ -1,27 +1,27 @@
 {
   "nav": {
     "brand": "WanderAI",
-    "explore": "Explorer",
-    "destinations": "Destinations",
-    "planner": "Planificateur IA",
-    "weather": "Météo",
-    "favorites": "Favoris",
-    "settings": "Paramètres",
-    "useLocation": "Explorer"
+    "explore": "สำรวจ",
+    "destinations": "จุดหมายปลายทาง",
+    "planner": "ผู้วางแผน AI",
+    "weather": "สภาพอากาศ",
+    "favorites": "รายการโปรด",
+    "settings": "การตั้งค่า",
+    "useLocation": "สำรวจ"
   },
   "hero": {
     "badge": "AI Autonomous Travel Assistant",
-    "headlinePrefix": "Partez vers des lieux qui valent la peine d'",
-    "headlineSuffix": "être vécus.",
-    "subtitle": "Découvrez des destinations d'exception avec données météo en temps réel et itinéraires personnalisés par IA.",
-    "searchPlaceholder": "Destinations...",
-    "cta": "Explorer l'Horizon",
+    "headlinePrefix": "เดินทางสู่สถานที่ที่ควรค่าแก่",
+    "headlineSuffix": "ความทรงจำ.",
+    "subtitle": "ค้นพบจุดหมายปลายทางระดับโลกพร้อมข้อมูลสภาพอากาศสดและแผนการเดินทางด้วย AI",
+    "searchPlaceholder": "จุดหมายปลายทาง...",
+    "cta": "เริ่มต้นสำรวจ",
     "gpsButton": "GPS",
     "closestHorizon": "Closest"
   },
   "destinations": {
-    "title": "Horizons d'Exception",
-    "subtitle": "Quatorze sanctuaires choisis pour leur culture, architecture, gastronomie et beauté.",
+    "title": "จุดหมายปลายทางคัดสรร",
+    "subtitle": "14 ดินแดนแห่งวัฒนธรรม สถาปัตยกรรม อาหาร และธรรมชาติอันงดงาม",
     "filterAll": "All",
     "viewDetails": "Explore",
     "featured": "Featured",
@@ -49,8 +49,8 @@
     "back": "Back"
   },
   "planner": {
-    "title": "Architecte d'Itinéraires par IA",
-    "subtitle": "Laissez Google Gemini concevoir votre expédition personnalisée au jour le jour.",
+    "title": "สถาปนิกแผนการเดินทาง AI",
+    "subtitle": "ให้ Google Gemini สังเคราะห์แผนการเดินทางรายวันเฉพาะคุณ",
     "step1": "Destination",
     "step2": "Duration",
     "step3": "Travelers",
@@ -66,14 +66,14 @@
     "budgetLabel": "Budget",
     "styleLabel": "Style",
     "interestsLabel": "Interests",
-    "generateBtn": "Concevoir Mon Expédition",
+    "generateBtn": "สร้างแผนการเดินทาง",
     "generating": "Synthesizing...",
     "sharePlan": "Share",
     "savePlan": "Save",
     "regenerate": "Regenerate"
   },
   "weather": {
-    "title": "Radar Météorologique",
+    "title": "เรดาร์สภาพอากาศ",
     "subtitle": "Live meteorological telemetry.",
     "searchPlaceholder": "City...",
     "feelsLike": "Feels like",
@@ -86,13 +86,13 @@
     "forecast": "5-Day Forecast"
   },
   "ai": {
-    "title": "Concierge WanderAI",
+    "title": "ผู้ช่วย WanderAI",
     "subtitle": "AI Travel Concierge",
-    "placeholder": "Posez vos questions sur les monuments, bistrots, saisons...",
+    "placeholder": "สอบถามเกี่ยวกับสถานที่ท่องเที่ยว ร้านอาหาร หรือช่วงเวลาที่เหมาะสม...",
     "thinking": "Thinking..."
   },
   "footer": {
-    "tagline": "Partez vers des lieux qui valent la peine d'être vécus.",
+    "tagline": "เดินทางสู่สถานที่ที่ควรค่าแก่ความทรงจำ.",
     "rights": "All rights reserved."
   },
   "common": {

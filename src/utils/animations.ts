@@ -1,9 +1,9 @@
 export const fadeInVariants = {
-  hidden: { opacity: 0, y: 15 },
+  hidden: { opacity: 0, y: 20 },
   visible: {
     opacity: 1,
     y: 0,
-    transition: { duration: 0.5 },
+    transition: { duration: 0.6 },
   },
 };
 
@@ -12,7 +12,8 @@ export const staggerContainerVariants = {
   visible: {
     opacity: 1,
     transition: {
-      staggerChildren: 0.1,
+      staggerChildren: 0.12,
+      delayChildren: 0.05,
     },
   },
 };
@@ -20,24 +21,24 @@ export const staggerContainerVariants = {
 export const cardHoverVariants = {
   initial: { y: 0, scale: 1 },
   hover: {
-    y: -6,
-    scale: 1.015,
-    transition: { duration: 0.3 },
+    y: -8,
+    scale: 1.02,
+    transition: { duration: 0.35 },
   },
 };
 
 export const modalVariants = {
-  hidden: { opacity: 0, scale: 0.95, y: 20 },
+  hidden: { opacity: 0, scale: 0.94, y: 15 },
   visible: {
     opacity: 1,
     scale: 1,
     y: 0,
-    transition: { duration: 0.3 },
+    transition: { duration: 0.25 },
   },
   exit: {
     opacity: 0,
-    scale: 0.95,
-    y: 20,
+    scale: 0.94,
+    y: 15,
     transition: { duration: 0.2 },
   },
 };

@@ -1,27 +1,27 @@
 {
   "nav": {
     "brand": "WanderAI",
-    "explore": "Explorer",
-    "destinations": "Destinations",
-    "planner": "Planificateur IA",
-    "weather": "Météo",
-    "favorites": "Favoris",
-    "settings": "Paramètres",
-    "useLocation": "Explorer"
+    "explore": "অন্বেষণ",
+    "destinations": "গন্তব্য",
+    "planner": "এআই পৰিকল্পনাকাৰী",
+    "weather": "বতৰ",
+    "favorites": "প্ৰিয়",
+    "settings": "ছেটিংছ",
+    "useLocation": "অন্বেষণ"
   },
   "hero": {
     "badge": "AI Autonomous Travel Assistant",
-    "headlinePrefix": "Partez vers des lieux qui valent la peine d'",
-    "headlineSuffix": "être vécus.",
-    "subtitle": "Découvrez des destinations d'exception avec données météo en temps réel et itinéraires personnalisés par IA.",
-    "searchPlaceholder": "Destinations...",
-    "cta": "Explorer l'Horizon",
+    "headlinePrefix": "স্মৰণীয় স্থানলৈ",
+    "headlineSuffix": "ভ্ৰমণ কৰক।",
+    "subtitle": "সক্ৰিয় বতৰ আৰু এআইৰ সহায়ত পৃথিৱীৰ সুন্দৰ স্থানসমূহ আৱিষ্কাৰ কৰক।",
+    "searchPlaceholder": "গন্তব্য...",
+    "cta": "আৰম্ভ কৰক",
     "gpsButton": "GPS",
     "closestHorizon": "Closest"
   },
   "destinations": {
-    "title": "Horizons d'Exception",
-    "subtitle": "Quatorze sanctuaires choisis pour leur culture, architecture, gastronomie et beauté.",
+    "title": "বাছনি কৰা স্থানসমূহ",
+    "subtitle": "সংস্কৃতি আৰু প্ৰাকৃতিক সৌন্দৰ্যৰ ১৪টা কেন্দ্ৰ।",
     "filterAll": "All",
     "viewDetails": "Explore",
     "featured": "Featured",
@@ -49,8 +49,8 @@
     "back": "Back"
   },
   "planner": {
-    "title": "Architecte d'Itinéraires par IA",
-    "subtitle": "Laissez Google Gemini concevoir votre expédition personnalisée au jour le jour.",
+    "title": "এআই যাত্ৰা পৰিকল্পনা",
+    "subtitle": "আপোনাৰ ভ্ৰমণৰ সুন্দৰ পৰিকল্পনা কৰক।",
     "step1": "Destination",
     "step2": "Duration",
     "step3": "Travelers",
@@ -66,14 +66,14 @@
     "budgetLabel": "Budget",
     "styleLabel": "Style",
     "interestsLabel": "Interests",
-    "generateBtn": "Concevoir Mon Expédition",
+    "generateBtn": "পৰিকল্পনা কৰক",
     "generating": "Synthesizing...",
     "sharePlan": "Share",
     "savePlan": "Save",
     "regenerate": "Regenerate"
   },
   "weather": {
-    "title": "Radar Météorologique",
+    "title": "বতৰ ৰাডাৰ",
     "subtitle": "Live meteorological telemetry.",
     "searchPlaceholder": "City...",
     "feelsLike": "Feels like",
@@ -86,13 +86,13 @@
     "forecast": "5-Day Forecast"
   },
   "ai": {
-    "title": "Concierge WanderAI",
+    "title": "ৱাণ্ডাৰ এআই সহায়ক",
     "subtitle": "AI Travel Concierge",
-    "placeholder": "Posez vos questions sur les monuments, bistrots, saisons...",
+    "placeholder": "স্থানসমূহৰ বিষয়ে সোধক...",
     "thinking": "Thinking..."
   },
   "footer": {
-    "tagline": "Partez vers des lieux qui valent la peine d'être vécus.",
+    "tagline": "স্মৰণীয় স্থানলৈ ভ্ৰমণ কৰক।",
     "rights": "All rights reserved."
   },
   "common": {

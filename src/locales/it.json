@@ -1,27 +1,27 @@
 {
   "nav": {
     "brand": "WanderAI",
-    "explore": "Explorer",
-    "destinations": "Destinations",
-    "planner": "Planificateur IA",
-    "weather": "Météo",
-    "favorites": "Favoris",
-    "settings": "Paramètres",
-    "useLocation": "Explorer"
+    "explore": "Esplora",
+    "destinations": "Destinazioni",
+    "planner": "Pianificatore AI",
+    "weather": "Meteo",
+    "favorites": "Preferiti",
+    "settings": "Impostazioni",
+    "useLocation": "Esplora"
   },
   "hero": {
     "badge": "AI Autonomous Travel Assistant",
-    "headlinePrefix": "Partez vers des lieux qui valent la peine d'",
-    "headlineSuffix": "être vécus.",
-    "subtitle": "Découvrez des destinations d'exception avec données météo en temps réel et itinéraires personnalisés par IA.",
-    "searchPlaceholder": "Destinations...",
-    "cta": "Explorer l'Horizon",
+    "headlinePrefix": "Viaggia in luoghi che vale la pena",
+    "headlineSuffix": "ricordare.",
+    "subtitle": "Scopri destinazioni esclusive con meteo in tempo reale e itinerari personalizzati con l'intelligenza artificiale.",
+    "searchPlaceholder": "Destinazioni...",
+    "cta": "Inizia il Viaggio",
     "gpsButton": "GPS",
     "closestHorizon": "Closest"
   },
   "destinations": {
-    "title": "Horizons d'Exception",
-    "subtitle": "Quatorze sanctuaires choisis pour leur culture, architecture, gastronomie et beauté.",
+    "title": "Mete Selezionate",
+    "subtitle": "Quattordici santuari di cultura, architettura, gastronomia e meraviglie naturali.",
     "filterAll": "All",
     "viewDetails": "Explore",
     "featured": "Featured",
@@ -49,8 +49,8 @@
     "back": "Back"
   },
   "planner": {
-    "title": "Architecte d'Itinéraires par IA",
-    "subtitle": "Laissez Google Gemini concevoir votre expédition personnalisée au jour le jour.",
+    "title": "Architetto di Itinerari AI",
+    "subtitle": "Lascia che l'AI crei il tuo itinerario giorno per giorno su misura.",
     "step1": "Destination",
     "step2": "Duration",
     "step3": "Travelers",
@@ -66,14 +66,14 @@
     "budgetLabel": "Budget",
     "styleLabel": "Style",
     "interestsLabel": "Interests",
-    "generateBtn": "Concevoir Mon Expédition",
+    "generateBtn": "Crea il Mio Viaggio",
     "generating": "Synthesizing...",
     "sharePlan": "Share",
     "savePlan": "Save",
     "regenerate": "Regenerate"
   },
   "weather": {
-    "title": "Radar Météorologique",
+    "title": "Radar Meteo",
     "subtitle": "Live meteorological telemetry.",
     "searchPlaceholder": "City...",
     "feelsLike": "Feels like",
@@ -88,11 +88,11 @@
   "ai": {
     "title": "Concierge WanderAI",
     "subtitle": "AI Travel Concierge",
-    "placeholder": "Posez vos questions sur les monuments, bistrots, saisons...",
+    "placeholder": "Chiedi consigli su monumenti, cibo o periodo ideale...",
     "thinking": "Thinking..."
   },
   "footer": {
-    "tagline": "Partez vers des lieux qui valent la peine d'être vécus.",
+    "tagline": "Viaggia in luoghi che vale la pena ricordare.",
     "rights": "All rights reserved."
   },
   "common": {

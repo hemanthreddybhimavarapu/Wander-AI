@@ -1,27 +1,27 @@
 {
   "nav": {
     "brand": "WanderAI",
-    "explore": "Explorer",
-    "destinations": "Destinations",
-    "planner": "Planificateur IA",
-    "weather": "Météo",
-    "favorites": "Favoris",
-    "settings": "Paramètres",
-    "useLocation": "Explorer"
+    "explore": "ଅନୁସନ୍ଧାନ",
+    "destinations": "ଗନ୍ତବ୍ୟସ୍ଥଳ",
+    "planner": "ଏଆଇ ଯୋଜନାକାରୀ",
+    "weather": "ପାଣିପାଗ",
+    "favorites": "ପସନ୍ଦ",
+    "settings": "ସେଟିଙ୍ଗ୍",
+    "useLocation": "ଅନୁସନ୍ଧାନ"
   },
   "hero": {
     "badge": "AI Autonomous Travel Assistant",
-    "headlinePrefix": "Partez vers des lieux qui valent la peine d'",
-    "headlineSuffix": "être vécus.",
-    "subtitle": "Découvrez des destinations d'exception avec données météo en temps réel et itinéraires personnalisés par IA.",
-    "searchPlaceholder": "Destinations...",
-    "cta": "Explorer l'Horizon",
+    "headlinePrefix": "ସ୍ମରଣୀୟ ସ୍ଥାନକୁ",
+    "headlineSuffix": "ଯାତ୍ରା କରନ୍ତୁ।",
+    "subtitle": "ଲାଇଭ୍ ପାଣିପାଗ ଏବଂ ଏଆଇ ସହିତ ବିଶ୍ୱର ସୁନ୍ଦର ସ୍ଥାନ ଖୋଜନ୍ତୁ।",
+    "searchPlaceholder": "ଗନ୍ତବ୍ୟସ୍ଥଳ...",
+    "cta": "ଆରମ୍ଭ କରନ୍ତୁ",
     "gpsButton": "GPS",
     "closestHorizon": "Closest"
   },
   "destinations": {
-    "title": "Horizons d'Exception",
-    "subtitle": "Quatorze sanctuaires choisis pour leur culture, architecture, gastronomie et beauté.",
+    "title": "ମନୋନୀତ ଗନ୍ତବ୍ୟସ୍ଥଳ",
+    "subtitle": "ସଂସ୍କୃତି ଏବଂ ପ୍ରକୃତିର ୧୪ଟି ମନୋରମ ସ୍ଥାନ।",
     "filterAll": "All",
     "viewDetails": "Explore",
     "featured": "Featured",
@@ -49,8 +49,8 @@
     "back": "Back"
   },
   "planner": {
-    "title": "Architecte d'Itinéraires par IA",
-    "subtitle": "Laissez Google Gemini concevoir votre expédition personnalisée au jour le jour.",
+    "title": "ଏଆଇ ଯାତ୍ରା ଯୋଜନାକାରୀ",
+    "subtitle": "ନିଜର ସୁନ୍ଦର ଯାତ୍ରା ଯୋଜନା ପ୍ରସ୍ତୁତ କରନ୍ତୁ।",
     "step1": "Destination",
     "step2": "Duration",
     "step3": "Travelers",
@@ -66,14 +66,14 @@
     "budgetLabel": "Budget",
     "styleLabel": "Style",
     "interestsLabel": "Interests",
-    "generateBtn": "Concevoir Mon Expédition",
+    "generateBtn": "ଯୋଜନା ପ୍ରସ୍ତୁତ କରନ୍ତୁ",
     "generating": "Synthesizing...",
     "sharePlan": "Share",
     "savePlan": "Save",
     "regenerate": "Regenerate"
   },
   "weather": {
-    "title": "Radar Météorologique",
+    "title": "ପାଣିପାଗ ରାଡାର",
     "subtitle": "Live meteorological telemetry.",
     "searchPlaceholder": "City...",
     "feelsLike": "Feels like",
@@ -86,13 +86,13 @@
     "forecast": "5-Day Forecast"
   },
   "ai": {
-    "title": "Concierge WanderAI",
+    "title": "ୱାଣ୍ଡର ଏଆଇ ସହାୟକ",
     "subtitle": "AI Travel Concierge",
-    "placeholder": "Posez vos questions sur les monuments, bistrots, saisons...",
+    "placeholder": "କିଛି ବି ପଚାରନ୍ତୁ...",
     "thinking": "Thinking..."
   },
   "footer": {
-    "tagline": "Partez vers des lieux qui valent la peine d'être vécus.",
+    "tagline": "ସ୍ମରଣୀୟ ସ୍ଥାନକୁ ଯାତ୍ରା କରନ୍ତୁ।",
     "rights": "All rights reserved."
   },
   "common": {
