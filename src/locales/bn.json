@@ -17,7 +17,10 @@
     "searchPlaceholder": "গন্তব্য...",
     "cta": "শুরু করুন",
     "gpsButton": "GPS",
-    "closestHorizon": "Closest"
+    "closestHorizon": "Closest",
+    "pillDatabase": "বিশ্বব্যাপী পর্যটন নির্দেশিকা",
+    "pillTelemetry": "লাইভ আবহাওয়া তথ্য",
+    "pillSynthesis": "গুগল জেমিনি এআই পরিকল্পনা"
   },
   "destinations": {
     "title": "বাছাইকৃত গন্তব্য",
@@ -93,7 +96,26 @@
   },
   "footer": {
     "tagline": "স্মরণীয় স্থানে ভ্রমণ করুন।",
-    "rights": "All rights reserved."
+    "rights": "All rights reserved.",
+    "ctaTitle": "আপনার ভ্রমণ পরিকল্পনা শুরু করুন",
+    "ctaDesc": "কৃত্রিম বুদ্ধিমত্তা দ্বারা পরিচালিত বিশ্বমানের ব্যক্তিগত ভ্রমণ অভিজ্ঞতা।",
+    "planBtn": "পরিকল্পনা তৈরি করুন",
+    "exploreBtn": "গন্তব্য অন্বেষণ করুন",
+    "brandDesc": "পরবর্তী প্রজন্মের কৃত্রিম বুদ্ধিমত্তা ভ্রমণ আবিষ্কার ইঞ্জিন।",
+    "colNav": "ন্যাভিগেশন",
+    "homeExp": "হোম অভিজ্ঞতা",
+    "curatedDest": "বাছাইকৃত গন্তব্য",
+    "aiPlanner": "এআই ভ্রমণ পরিকল্পনাকারী",
+    "weatherTel": "আবহাওয়া তথ্য",
+    "colVault": "ব্যক্তিগত ভল্ট",
+    "savedHorizons": "সংরক্ষিত গন্তব্য",
+    "themePref": "থিম পছন্দসমূহ",
+    "langPref": "ভাষা নির্বাচন",
+    "colDispatches": "খবরাখবর",
+    "dispatchesDesc": "নতুন পর্যটন স্থান সম্পর্কে নিয়মিত আপডেট পান।",
+    "emailPlaceholder": "ইমেইল ঠিকানা লিখুন...",
+    "copyright": "সর্বস্বত্ব সংরক্ষিত। বিশ্ব ভ্রমণকারীদের জন্য নিবেদিত।",
+    "crafted": "বিশ্ব ভ্রমণকারীদের জন্য ভালোবাসার সাথে তৈরি।"
   },
   "common": {
     "offline": "Offline Mode"
@@ -104,5 +126,23 @@
     "langChanged": "Language: {lang}",
     "saved": "Saved.",
     "copied": "Copied."
+  },
+  "home": {
+    "continueExploring": "অন্বেষণ চালিয়ে যান",
+    "spotlight": "কিউরেটরের স্পটলাইট",
+    "readStory": "অভিযান গল্প পড়ুন",
+    "trendingTitle": "বিশ্ব ভ্রমণকারীদের সেরা পছন্দ",
+    "viewAll": "সকল গন্তব্য দেখুন →",
+    "popularTitle": "অন্বেষণের সেরা পোর্টালসমূহ",
+    "exploreAll": "সব গন্তব্য দেখুন"
+  },
+  "styles": {
+    "culture": "সংস্কৃতি",
+    "luxury": "বিলাসবহুল",
+    "food": "খাবার",
+    "adventure": "রোমাঞ্চ",
+    "beaches": "সৈকত",
+    "relaxed": "প্রশান্তিময়",
+    "historical": "ঐতিহাসিক"
   }
 }

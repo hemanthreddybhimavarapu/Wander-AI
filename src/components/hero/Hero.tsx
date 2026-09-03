@@ -218,15 +218,15 @@ export const Hero: React.FC = () => {
         >
           <div className="flex items-center gap-1.5 px-3 py-1 rounded-full bg-theme-surface/40 border border-theme-border/60">
             <Globe className="w-3.5 h-3.5 text-theme-accent" />
-            <span>Worldwide Destination Database</span>
+            <span>{t('hero.pillDatabase')}</span>
           </div>
           <div className="flex items-center gap-1.5 px-3 py-1 rounded-full bg-theme-surface/40 border border-theme-border/60">
             <CloudSun className="w-3.5 h-3.5 text-theme-accent-secondary" />
-            <span>Live Meteorological Telemetry</span>
+            <span>{t('hero.pillTelemetry')}</span>
           </div>
           <div className="flex items-center gap-1.5 px-3 py-1 rounded-full bg-theme-surface/40 border border-theme-border/60">
             <Users className="w-3.5 h-3.5 text-emerald-400" />
-            <span>Google Gemini Autonomous Synthesis</span>
+            <span>{t('hero.pillSynthesis')}</span>
           </div>
         </motion.div>
       </div>

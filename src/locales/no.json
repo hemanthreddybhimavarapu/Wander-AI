@@ -17,7 +17,10 @@
     "searchPlaceholder": "Destinasjoner...",
     "cta": "Utforsk nå",
     "gpsButton": "GPS",
-    "closestHorizon": "Closest"
+    "closestHorizon": "Closest",
+    "pillDatabase": "Worldwide Planetary Directory",
+    "pillTelemetry": "Live Meteorological Telemetry",
+    "pillSynthesis": "Google Gemini AI Synthesis"
   },
   "destinations": {
     "title": "Utvalgte Reisemål",
@@ -93,7 +96,26 @@
   },
   "footer": {
     "tagline": "Reis til steder verdt å huske.",
-    "rights": "All rights reserved."
+    "rights": "All rights reserved.",
+    "ctaTitle": "Begin Your Bespoke Journey Today",
+    "ctaDesc": "Experience the world curated by artificial intelligence and crafted for discerning travelers who value authentic immersion over generic tours.",
+    "planBtn": "Plan Itinerary",
+    "exploreBtn": "Explore Destinations",
+    "brandDesc": "Next-generation autonomous travel discovery engine. Powered by Google Gemini and live atmospheric telemetry.",
+    "colNav": "Navigation",
+    "homeExp": "Home Experience",
+    "curatedDest": "Curated Destinations",
+    "aiPlanner": "AI Itinerary Architect",
+    "weatherTel": "Atmospheric Telemetry",
+    "colVault": "Personal Vault",
+    "savedHorizons": "Saved Horizons",
+    "themePref": "Appearance & Themes",
+    "langPref": "Language Preferences",
+    "colDispatches": "Dispatches",
+    "dispatchesDesc": "Receive private updates on newly opened boutique sanctuaries.",
+    "emailPlaceholder": "Enter email address...",
+    "copyright": "All rights reserved. Built for discerning global explorers.",
+    "crafted": "Crafted with passion for Global Explorers."
   },
   "common": {
     "offline": "Offline Mode"
@@ -104,5 +126,23 @@
     "langChanged": "Language: {lang}",
     "saved": "Saved.",
     "copied": "Copied."
+  },
+  "home": {
+    "continueExploring": "Continue Exploring",
+    "spotlight": "Curator's Spotlight",
+    "readStory": "Read Expedition Story",
+    "trendingTitle": "Global Travelers' Current Obsessions",
+    "viewAll": "View All Destinations →",
+    "popularTitle": "Handpicked Portals of Discovery",
+    "exploreAll": "Explore All Destinations"
+  },
+  "styles": {
+    "culture": "Culture",
+    "luxury": "Luxury",
+    "food": "Food & Wine",
+    "adventure": "Adventure",
+    "beaches": "Beaches",
+    "relaxed": "Relaxed",
+    "historical": "Historical"
   }
 }

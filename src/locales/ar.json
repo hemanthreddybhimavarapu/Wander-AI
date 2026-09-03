@@ -17,7 +17,10 @@
     "searchPlaceholder": "الوجهات...",
     "cta": "استكشف الآن",
     "gpsButton": "GPS",
-    "closestHorizon": "Closest"
+    "closestHorizon": "Closest",
+    "pillDatabase": "دليل الوجهات العالمي",
+    "pillTelemetry": "بيانات الطقس المباشرة",
+    "pillSynthesis": "تخطيط ذكي مع جوجل جیمیني"
   },
   "destinations": {
     "title": "وجهات عالمية مختارة",
@@ -93,7 +96,26 @@
   },
   "footer": {
     "tagline": "سافر إلى أماكن تستحق أن تُعاش.",
-    "rights": "All rights reserved."
+    "rights": "All rights reserved.",
+    "ctaTitle": "ابدأ رحلتك المخصصة اليوم",
+    "ctaDesc": "اكتشف العالم من خلال برامج سياحية صممت بالذكاء الاصطناعي للمسافرين المميزين.",
+    "planBtn": "تخطيط الرحلة",
+    "exploreBtn": "استكشاف الوجهات",
+    "brandDesc": "محرك استكشاف السفر الذاتي المتطور من الجيل القادم.",
+    "colNav": "التنقل",
+    "homeExp": "الرئيسية",
+    "curatedDest": "الوجهات المختارة",
+    "aiPlanner": "مخطط الرحلات الذكي",
+    "weatherTel": "رادار الطقس الحي",
+    "colVault": "المحفظة الشخصية",
+    "savedHorizons": "الوجهات المحفوظة",
+    "themePref": "المظهر والسمات",
+    "langPref": "تفضيلات اللغة",
+    "colDispatches": "النشرات الإخبارية",
+    "dispatchesDesc": "احصل على تحديثات خاصة عن الملاذات والوجهات الجديدة.",
+    "emailPlaceholder": "أدخل بريدك الإلكتروني...",
+    "copyright": "جميع الحقوق محفوظة. صُمم للمستكشفين حول العالم.",
+    "crafted": "صُنع بحب للمستكشفين حول العالم."
   },
   "common": {
     "offline": "Offline Mode"
@@ -104,5 +126,23 @@
     "langChanged": "Language: {lang}",
     "saved": "Saved.",
     "copied": "Copied."
+  },
+  "home": {
+    "continueExploring": "متابعة الاستكشاف",
+    "spotlight": "اختيار المنسق",
+    "readStory": "قراءة قصة الرحلة",
+    "trendingTitle": "أكثر الوجهات رواجاً عالمياً",
+    "viewAll": "عرض جميع الوجهات ←",
+    "popularTitle": "بوابات الاستكشاف المميزة",
+    "exploreAll": "استكشف جميع الوجهات"
+  },
+  "styles": {
+    "culture": "ثقافة",
+    "luxury": "فخامة",
+    "food": "مأكولات",
+    "adventure": "مغامرة",
+    "beaches": "شواطئ",
+    "relaxed": "استجمام",
+    "historical": "تاريخي"
   }
 }

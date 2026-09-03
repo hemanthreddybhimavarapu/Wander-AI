@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { motion } from 'framer-motion';
 import { Sparkles, ArrowRight, TrendingUp, Compass, Clock } from 'lucide-react';
 import { Hero } from '../components/hero/Hero';
 import { DestinationCard } from '../components/destinations/DestinationCard';
@@ -35,7 +34,7 @@ export const HomePage: React.FC = () => {
         <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-theme-text-muted mb-4">
             <Clock className="w-4 h-4 text-theme-accent" />
-            <span>Continue Exploring</span>
+            <span>{t('home.continueExploring')}</span>
           </div>
           <div className="flex gap-3 overflow-x-auto pb-2 scrollbar-none">
             {recentDestinations.map((dest: any) => (
@@ -68,12 +67,12 @@ export const HomePage: React.FC = () => {
                 <span>{t('destinations.featured')}</span>
               </div>
               <h2 className="font-display text-3xl sm:text-4xl font-extrabold text-theme-text-primary">
-                Curator's Spotlight: {featured[0].name}
+                {t('home.spotlight')}: {featured[0].name}
               </h2>
             </div>
             <Link to={`/destination/${featured[0].id}`}>
               <Button variant="secondary" size="sm" icon={<ArrowRight className="w-4 h-4" />}>
-                Read Expedition Story
+                {t('home.readStory')}
               </Button>
             </Link>
           </div>
@@ -108,11 +107,11 @@ export const HomePage: React.FC = () => {
               <span>{t('destinations.trending')}</span>
             </div>
             <h2 className="font-display text-3xl sm:text-4xl font-extrabold text-theme-text-primary">
-              Global Travelers' Current Obsessions
+              {t('home.trendingTitle')}
             </h2>
           </div>
           <Link to="/destinations" className="text-xs font-semibold text-theme-accent hover:underline hidden sm:inline">
-            View All 12 Destinations →
+            {t('home.viewAll')}
           </Link>
         </div>
 
@@ -127,12 +126,12 @@ export const HomePage: React.FC = () => {
               <span>{t('destinations.popular')}</span>
             </div>
             <h2 className="font-display text-3xl sm:text-4xl font-extrabold text-theme-text-primary">
-              Handpicked Portals of Discovery
+              {t('home.popularTitle')}
             </h2>
           </div>
           <Link to="/destinations">
             <Button variant="secondary" size="sm">
-              Explore All
+              {t('home.exploreAll')}
             </Button>
           </Link>
         </div>

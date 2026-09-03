@@ -17,7 +17,10 @@
     "searchPlaceholder": "目的地...",
     "cta": "地平線を探検する",
     "gpsButton": "GPS",
-    "closestHorizon": "Closest"
+    "closestHorizon": "Closest",
+    "pillDatabase": "全世界デスティネーション図鑑",
+    "pillTelemetry": "リアルタイム気象テレメトリー",
+    "pillSynthesis": "Google Gemini AI合成"
   },
   "destinations": {
     "title": "厳選された世界の絶景",
@@ -93,7 +96,26 @@
   },
   "footer": {
     "tagline": "心に刻まれる最高の旅へ出かけよう。",
-    "rights": "All rights reserved."
+    "rights": "All rights reserved.",
+    "ctaTitle": "心躍るあなただけの旅を今すぐ始めよう",
+    "ctaDesc": "最先端のAIが厳選した、本物の没入感を求める旅行者のためのオーダーメイド体験。",
+    "planBtn": "旅程をプランニング",
+    "exploreBtn": "目的地を探す",
+    "brandDesc": "次世代自律型AIトラベルディスカバリーエンジン。",
+    "colNav": "ナビゲーション",
+    "homeExp": "ホーム体験",
+    "curatedDest": "厳選された目的地",
+    "aiPlanner": "AI旅程アーキテクト",
+    "weatherTel": "気象テレメトリー",
+    "colVault": "パーソナルヴォールト",
+    "savedHorizons": "保存された旅先",
+    "themePref": "テーマと外観",
+    "langPref": "言語設定",
+    "colDispatches": "最新ニュースレター",
+    "dispatchesDesc": "新着の隠れ家スポット情報をお届けします。",
+    "emailPlaceholder": "メールアドレスを入力...",
+    "copyright": "All rights reserved. 世界中の探検家のために設計。",
+    "crafted": "世界中の旅人のために情熱を込めて制作。"
   },
   "common": {
     "offline": "Offline Mode"
@@ -104,5 +126,23 @@
     "langChanged": "Language: {lang}",
     "saved": "Saved.",
     "copied": "Copied."
+  },
+  "home": {
+    "continueExploring": "探検を続ける",
+    "spotlight": "キュレーターのおすすめ",
+    "readStory": "遠征ストーリーを読む",
+    "trendingTitle": "世界の旅人が今注目するスポット",
+    "viewAll": "すべての目的地を見る →",
+    "popularTitle": "厳選された発見のポータル",
+    "exploreAll": "すべて探検する"
+  },
+  "styles": {
+    "culture": "文化",
+    "luxury": "ラグジュアリー",
+    "food": "美食",
+    "adventure": "冒険",
+    "beaches": "ビーチ",
+    "relaxed": "癒やし",
+    "historical": "歴史"
   }
 }

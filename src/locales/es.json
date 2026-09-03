@@ -17,7 +17,10 @@
     "searchPlaceholder": "Destinos...",
     "cta": "Explorar Destinos",
     "gpsButton": "GPS",
-    "closestHorizon": "Closest"
+    "closestHorizon": "Closest",
+    "pillDatabase": "Directorio Planetario Mundial",
+    "pillTelemetry": "Telemetría Meteorológica en Vivo",
+    "pillSynthesis": "Síntesis de IA Google Gemini"
   },
   "destinations": {
     "title": "Horizontes Seleccionados",
@@ -93,7 +96,26 @@
   },
   "footer": {
     "tagline": "Viaja a lugares dignos de recordar.",
-    "rights": "All rights reserved."
+    "rights": "All rights reserved.",
+    "ctaTitle": "Comienza Tu Viaje a Medida Hoy Mismo",
+    "ctaDesc": "Descubre el mundo con itinerarios creados por inteligencia artificial para viajeros que buscan autenticidad.",
+    "planBtn": "Planificar Itinerario",
+    "exploreBtn": "Explorar Destinos",
+    "brandDesc": "Motor de descubrimiento de viajes autónomo de última generación.",
+    "colNav": "Navegación",
+    "homeExp": "Inicio",
+    "curatedDest": "Destinos Seleccionados",
+    "aiPlanner": "Arquitecto de Itinerarios IA",
+    "weatherTel": "Telemetría Atmosférica",
+    "colVault": "Bóveda Personal",
+    "savedHorizons": "Destinos Guardados",
+    "themePref": "Apariencia y Temas",
+    "langPref": "Idioma",
+    "colDispatches": "Boletín",
+    "dispatchesDesc": "Recibe novedades exclusivas sobre nuevos destinos.",
+    "emailPlaceholder": "Introduce tu correo electrónico...",
+    "copyright": "Todos los derechos reservados. Creado para exploradores globales.",
+    "crafted": "Hecho con pasión para exploradores globales."
   },
   "common": {
     "offline": "Offline Mode"
@@ -104,5 +126,23 @@
     "langChanged": "Language: {lang}",
     "saved": "Saved.",
     "copied": "Copied."
+  },
+  "home": {
+    "continueExploring": "Continuar Explorando",
+    "spotlight": "Selección del Curador",
+    "readStory": "Leer Relato de Expedición",
+    "trendingTitle": "Tendencias Globales de Viaje",
+    "viewAll": "Ver Todos los Destinos →",
+    "popularTitle": "Portales de Descubrimiento Seleccionados",
+    "exploreAll": "Explorar Todos"
+  },
+  "styles": {
+    "culture": "Cultura",
+    "luxury": "Lujo",
+    "food": "Gastronomía",
+    "adventure": "Aventura",
+    "beaches": "Playas",
+    "relaxed": "Relax",
+    "historical": "Histórico"
   }
 }

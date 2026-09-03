@@ -17,7 +17,10 @@
     "searchPlaceholder": "गंतव्य...",
     "cta": "खोज शुरू करें",
     "gpsButton": "GPS",
-    "closestHorizon": "Closest"
+    "closestHorizon": "Closest",
+    "pillDatabase": "वैश्विक पर्यटन निर्देशिका",
+    "pillTelemetry": "सक्रिय मौसम रडार",
+    "pillSynthesis": "गूगल जेमिनी एआई योजना"
   },
   "destinations": {
     "title": "चुनिंदा वैश्विक गंतव्य",
@@ -93,7 +96,26 @@
   },
   "footer": {
     "tagline": "यादगार जगहों की सैर करें।",
-    "rights": "All rights reserved."
+    "rights": "All rights reserved.",
+    "ctaTitle": "अपनी यादगार यात्रा आज ही शुरू करें",
+    "ctaDesc": "कृत्रिम बुद्धिमत्ता द्वारा संचालित व्यक्तिगत और प्रामाणिक यात्रा अनुभव।",
+    "planBtn": "योजना बनाएं",
+    "exploreBtn": "गंतव्य देखें",
+    "brandDesc": "अगली पीढ़ी का स्वायत्त यात्रा खोज इंजन।",
+    "colNav": "नेविगेशन",
+    "homeExp": "होम अनुभव",
+    "curatedDest": "चुनिंदा गंतव्य",
+    "aiPlanner": "एआई यात्रा योजनाकार",
+    "weatherTel": "मौसम रडार",
+    "colVault": "पर्सनल वॉल्ट",
+    "savedHorizons": "सहेजे गए स्थान",
+    "themePref": "थीम प्राथमिकताएं",
+    "langPref": "भाषा चुनें",
+    "colDispatches": "समाचार",
+    "dispatchesDesc": "नए पर्यटन स्थलों के बारे में विशेष अपडेट प्राप्त करें।",
+    "emailPlaceholder": "ईमेल दर्ज करें...",
+    "copyright": "सर्वाधिकार सुरक्षित। वैश्विक यात्रियों के लिए समर्पित।",
+    "crafted": "वैश्विक खोजकर्ताओं के लिए प्यार से निर्मित।"
   },
   "common": {
     "offline": "Offline Mode"
@@ -104,5 +126,23 @@
     "langChanged": "Language: {lang}",
     "saved": "Saved.",
     "copied": "Copied."
+  },
+  "home": {
+    "continueExploring": "खोज जारी रखें",
+    "spotlight": "क्यूरेटर की पसंद",
+    "readStory": "यात्रा की कहानी पढ़ें",
+    "trendingTitle": "वैश्विक यात्रियों की पहली पसंद",
+    "viewAll": "सभी गंतव्य देखें →",
+    "popularTitle": "खोज के चुनिंदा द्वार",
+    "exploreAll": "सभी गंतव्य देखें"
+  },
+  "styles": {
+    "culture": "संस्कृति",
+    "luxury": "विलासिता",
+    "food": "खान-पान",
+    "adventure": "रोमांच",
+    "beaches": "समुद्र तट",
+    "relaxed": "सुकून",
+    "historical": "ऐतिहासिक"
   }
 }

@@ -18,23 +18,23 @@ export const Footer: React.FC = () => {
               <span>{t('footer.tagline')}</span>
             </div>
             <h2 className="font-display text-3xl sm:text-4xl font-extrabold text-theme-text-primary tracking-tight">
-              Begin Your Bespoke Journey Today
+              {t('footer.ctaTitle')}
             </h2>
             <p className="text-sm sm:text-base text-theme-text-secondary leading-relaxed">
-              Experience the world curated by artificial intelligence and crafted for discerning travelers who value authentic immersion over generic tours.
+              {t('footer.ctaDesc')}
             </p>
             <div className="pt-2 flex flex-wrap gap-4">
               <Link
                 to="/planner"
-                className="px-6 py-3 rounded-full bg-gradient-to-r from-theme-accent to-theme-accent-secondary text-white font-semibold text-sm shadow-glow hover:opacity-95 transition-opacity"
+                className="px-6 py-3 rounded-full bg-gradient-to-r from-theme-accent to-theme-accent-secondary text-white font-semibold text-sm shadow-glow hover:opacity-95 transition-opacity cursor-pointer"
               >
-                Plan Itinerary
+                {t('footer.planBtn')}
               </Link>
               <Link
                 to="/destinations"
-                className="px-6 py-3 rounded-full bg-theme-surface hover:bg-theme-surface-hover border border-theme-border text-theme-text-primary font-semibold text-sm transition-colors"
+                className="px-6 py-3 rounded-full bg-theme-surface hover:bg-theme-surface-hover border border-theme-border text-theme-text-primary font-semibold text-sm transition-colors cursor-pointer"
               >
-                Explore Destinations
+                {t('footer.exploreBtn')}
               </Link>
             </div>
           </div>
@@ -49,44 +49,44 @@ export const Footer: React.FC = () => {
               <span className="font-display text-lg font-black text-gradient">WANDERAI</span>
             </div>
             <p className="text-xs text-theme-text-muted leading-relaxed">
-              Next-generation autonomous travel discovery engine. Powered by Google Gemini and live atmospheric telemetry.
+              {t('footer.brandDesc')}
             </p>
           </div>
 
           <div>
             <h3 className="text-xs font-bold uppercase tracking-wider text-theme-text-primary mb-3">
-              Navigation
+              {t('footer.colNav')}
             </h3>
             <ul className="space-y-2 text-xs text-theme-text-secondary">
-              <li><Link to="/" className="hover:text-theme-accent transition-colors">Home Experience</Link></li>
-              <li><Link to="/destinations" className="hover:text-theme-accent transition-colors">Curated Destinations</Link></li>
-              <li><Link to="/planner" className="hover:text-theme-accent transition-colors">AI Itinerary Architect</Link></li>
-              <li><Link to="/weather" className="hover:text-theme-accent transition-colors">Atmospheric Telemetry</Link></li>
+              <li><Link to="/" className="hover:text-theme-accent transition-colors">{t('footer.homeExp')}</Link></li>
+              <li><Link to="/destinations" className="hover:text-theme-accent transition-colors">{t('footer.curatedDest')}</Link></li>
+              <li><Link to="/planner" className="hover:text-theme-accent transition-colors">{t('footer.aiPlanner')}</Link></li>
+              <li><Link to="/weather" className="hover:text-theme-accent transition-colors">{t('footer.weatherTel')}</Link></li>
             </ul>
           </div>
 
           <div>
             <h3 className="text-xs font-bold uppercase tracking-wider text-theme-text-primary mb-3">
-              Personal Vault
+              {t('footer.colVault')}
             </h3>
             <ul className="space-y-2 text-xs text-theme-text-secondary">
-              <li><Link to="/favorites" className="hover:text-theme-accent transition-colors">Saved Horizons</Link></li>
-              <li><Link to="/settings" className="hover:text-theme-accent transition-colors">Appearance & Themes</Link></li>
-              <li><Link to="/settings" className="hover:text-theme-accent transition-colors">Language Preferences</Link></li>
+              <li><Link to="/favorites" className="hover:text-theme-accent transition-colors">{t('footer.savedHorizons')}</Link></li>
+              <li><Link to="/settings" className="hover:text-theme-accent transition-colors">{t('footer.themePref')}</Link></li>
+              <li><Link to="/settings" className="hover:text-theme-accent transition-colors">{t('footer.langPref')}</Link></li>
             </ul>
           </div>
 
           <div>
             <h3 className="text-xs font-bold uppercase tracking-wider text-theme-text-primary mb-3">
-              Dispatches
+              {t('footer.colDispatches')}
             </h3>
             <p className="text-xs text-theme-text-muted mb-3">
-              Receive private updates on newly opened boutique sanctuaries.
+              {t('footer.dispatchesDesc')}
             </p>
             <div className="flex items-center gap-2">
               <input
                 type="email"
-                placeholder="Enter email address..."
+                placeholder={t('footer.emailPlaceholder')}
                 className="w-full px-3 py-2 text-xs rounded-xl bg-theme-surface border border-theme-border text-theme-text-primary placeholder:text-theme-text-muted focus:outline-none focus:border-theme-accent"
               />
               <button
@@ -101,11 +101,9 @@ export const Footer: React.FC = () => {
         </div>
 
         <div className="mt-12 pt-8 border-t border-theme-border/40 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-theme-text-muted">
-          <p>&copy; {new Date().getFullYear()} WANDERAI Inc. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} WANDERAI Inc. {t('footer.copyright')}</p>
           <div className="flex items-center gap-1">
-            <span>Crafted with</span>
-            <Heart className="w-3.5 h-3.5 text-rose-500 fill-current inline" />
-            <span>for Global Explorers.</span>
+            <span>{t('footer.crafted')}</span>
           </div>
         </div>
       </div>

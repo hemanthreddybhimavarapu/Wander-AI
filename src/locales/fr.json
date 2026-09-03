@@ -17,7 +17,10 @@
     "searchPlaceholder": "Destinations...",
     "cta": "Explorer l'Horizon",
     "gpsButton": "GPS",
-    "closestHorizon": "Closest"
+    "closestHorizon": "Closest",
+    "pillDatabase": "Répertoire Planétaire Mondial",
+    "pillTelemetry": "Télémétrie Météorologique en Direct",
+    "pillSynthesis": "Synthèse Google Gemini IA"
   },
   "destinations": {
     "title": "Horizons d'Exception",
@@ -93,7 +96,26 @@
   },
   "footer": {
     "tagline": "Partez vers des lieux qui valent la peine d'être vécus.",
-    "rights": "All rights reserved."
+    "rights": "All rights reserved.",
+    "ctaTitle": "Commencez Votre Voyage Sur-Mesure Dès Aujourd'hui",
+    "ctaDesc": "Découvrez le monde façonné par l'intelligence artificielle pour les voyageurs exigeants.",
+    "planBtn": "Planifier Mon Voyage",
+    "exploreBtn": "Explorer les Destinations",
+    "brandDesc": "Moteur de découverte de voyages autonome de nouvelle génération.",
+    "colNav": "Navigation",
+    "homeExp": "Accueil",
+    "curatedDest": "Destinations d'Exception",
+    "aiPlanner": "Architecte d'Itinéraires IA",
+    "weatherTel": "Télémétrie Météorologique",
+    "colVault": "Coffre Personnel",
+    "savedHorizons": "Horizons Enregistrés",
+    "themePref": "Thèmes & Apparence",
+    "langPref": "Préférences Linguistiques",
+    "colDispatches": "Dépêches",
+    "dispatchesDesc": "Recevez nos actualités exclusives sur les nouveaux sanctuaires.",
+    "emailPlaceholder": "Entrez votre adresse email...",
+    "copyright": "Tous droits réservés. Conçu pour les explorateurs du monde entier.",
+    "crafted": "Créé avec passion pour les explorateurs du monde."
   },
   "common": {
     "offline": "Offline Mode"
@@ -104,5 +126,23 @@
     "langChanged": "Language: {lang}",
     "saved": "Saved.",
     "copied": "Copied."
+  },
+  "home": {
+    "continueExploring": "Continuer l'exploration",
+    "spotlight": "Coup de Cœur du Conservateur",
+    "readStory": "Lire le Récit d'Expédition",
+    "trendingTitle": "Les Engouements du Moment",
+    "viewAll": "Voir Toutes les Destinations →",
+    "popularTitle": "Portails de Découverte d'Exception",
+    "exploreAll": "Tout Explorer"
+  },
+  "styles": {
+    "culture": "Culture",
+    "luxury": "Luxe",
+    "food": "Gastronomie",
+    "adventure": "Aventure",
+    "beaches": "Plages",
+    "relaxed": "Détente",
+    "historical": "Historique"
   }
 }
