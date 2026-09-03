@@ -11,6 +11,18 @@
 
 ---
 
+## 📱 Application Pages & Experience Tour
+
+* 🏠 **Home page (`/`)**: Immersive video hero atmosphere, smart destination search with instant autocomplete, live GPS nearest gateway locator, Curator's Spotlight, and trending horizons carousel.
+* 🤖 **AI Planner / generated itinerary (`/planner`)**: 7-step guided expedition architect powered by Google Gemini 1.5 Flash, generating time-slotted daily activities, interactive checkable accordions, and confetti celebration.
+* 🌍 **Destinations page (`/destinations` & `/destination/:id`)**: Worldwide destination catalog with hierarchical "Country → City" search (e.g. *India → Delhi*, *France Paris*), dynamic on-the-fly city resolution, and visual landmark storytelling.
+* 🌤️ **Weather page (`/weather`)**: Real-time atmospheric radar powered by OpenWeatherMap API with dynamic SVG vector condition animations (sun, rain, clouds, snow) and 5-day projections.
+* ⚙️ **Settings / themes (`/settings`)**: 6 adaptive atmospheric design themes (*Aurora, Ocean, Sunset, Forest, Luxury, Light*), 40-language internationalization selector with RTL support, reduced motion accessibility, and vault cache controls.
+
+---
+
+
+
 ## 🌟 Key Product Features
 
 ### 1. 🌌 Autonomous Itinerary Architect (`/planner`)
