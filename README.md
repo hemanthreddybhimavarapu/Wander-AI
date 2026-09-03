@@ -23,6 +23,31 @@
 
 
 
+
+## 📸 Screenshots
+
+### 🏠 Home Page
+*Show the main landing page, hero section, destination search, and navigation.*
+![Home Page Screenshot](./screenshots/home-page.png)
+
+### 🤖 AI Planner
+*Show the AI travel planner and generated personalized itinerary.*
+![AI Planner Screenshot](./screenshots/ai-planner.png)
+
+### 🌍 Destinations
+*Show the destination discovery page with destination cards and search/filter features.*
+![Destinations Screenshot](./screenshots/destinations.png)
+
+### 🌤️ Weather
+*Show the weather page with current weather information and forecast.*
+![Weather Screenshot](./screenshots/weather.png)
+
+### ⚙️ Settings & Themes
+*Show the settings page with themes, language selection, and customization options.*
+![Settings & Themes Screenshot](./screenshots/settings.png)
+
+---
+
 ## 🌟 Key Product Features
 
 ### 1. 🌌 Autonomous Itinerary Architect (`/planner`)
