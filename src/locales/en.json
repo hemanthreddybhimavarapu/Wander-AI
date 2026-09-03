@@ -1,0 +1,104 @@
+{
+  "nav": {
+    "brand": "WanderAI",
+    "explore": "Explore",
+    "destinations": "Destinations",
+    "planner": "AI Planner",
+    "weather": "Weather",
+    "favorites": "Favorites",
+    "settings": "Settings",
+    "useLocation": "Locate Horizon"
+  },
+  "hero": {
+    "badge": "Next-Generation AI Autonomous Travel Assistant",
+    "headlinePrefix": "Go Somewhere Worth",
+    "headlineSuffix": "Remembering.",
+    "subtitle": "Discover curated global destinations with real-time weather telemetry, bespoke multi-day itineraries, and multilingual artificial intelligence.",
+    "searchPlaceholder": "Where does your wanderlust lead you? (e.g. Paris, Tokyo, Bali)...",
+    "cta": "Explore Horizon"
+  },
+  "destinations": {
+    "title": "Curated Planetary Horizons",
+    "subtitle": "Twelve handpicked sanctuaries of culture, architecture, gastronomy, and raw natural wonder.",
+    "filterAll": "All Horizons",
+    "viewDetails": "Explore Gateway",
+    "featured": "Curator's Spotlight",
+    "trending": "Trending Globally",
+    "popular": "Signature Sanctuaries",
+    "searchEmptyTitle": "No destinations discovered",
+    "searchEmptyMsg": "Try adjusting your search criteria or explore our featured recommendations.",
+    "clearFilters": "Reset Filters"
+  },
+  "detail": {
+    "about": "The Experience",
+    "quickFacts": "Quick Facts & Telemetry",
+    "bestTime": "Ideal Season",
+    "currency": "Currency",
+    "language": "Native Language",
+    "timezone": "Timezone",
+    "coordinates": "Coordinates",
+    "famousPlaces": "Signature Landmarks",
+    "travelTips": "Curator's Travel Notes",
+    "liveWeather": "Atmospheric Radar",
+    "planTrip": "Generate Bespoke Itinerary",
+    "share": "Share",
+    "copied": "Link copied to clipboard."
+  },
+  "planner": {
+    "title": "Autonomous Itinerary Architect",
+    "subtitle": "Let Google Gemini synthesize your personalized, day-by-day expedition schedule.",
+    "step1": "Destination",
+    "step2": "Duration",
+    "step3": "Travelers",
+    "step4": "Budget",
+    "step5": "Travel Style",
+    "step6": "Interests",
+    "step7": "Review & Launch",
+    "destinationLabel": "Select Expedition Gateway",
+    "destinationPlaceholder": "Or specify any city worldwide...",
+    "daysLabel": "Expedition Length",
+    "daysUnit": "Days",
+    "travelersLabel": "Travel Party Composition",
+    "budgetLabel": "Financial Comfort Tier",
+    "styleLabel": "Travel Philosophy",
+    "interestsLabel": "Curated Interests",
+    "generateBtn": "Architect My Expedition",
+    "generating": "Synthesizing Bespoke Itinerary...",
+    "sharePlan": "Share Itinerary",
+    "savePlan": "Save to Vault",
+    "regenerate": "Re-Architect"
+  },
+  "weather": {
+    "title": "Atmospheric Radar",
+    "subtitle": "Live meteorological telemetry and multi-day forecasts for global gateways.",
+    "searchPlaceholder": "Search city weather telemetry...",
+    "feelsLike": "Feels like",
+    "humidity": "Humidity",
+    "wind": "Wind Speed",
+    "pressure": "Barometric Pressure",
+    "visibility": "Visibility",
+    "sunrise": "Sunrise",
+    "sunset": "Sunset",
+    "forecast": "5-Day Atmospheric Projection"
+  },
+  "ai": {
+    "title": "WanderAI Concierge",
+    "subtitle": "Autonomous Travel Companion",
+    "placeholder": "Ask anything about sights, dining, customs, or timing...",
+    "thinking": "Synthesizing concierge insights..."
+  },
+  "footer": {
+    "tagline": "Go Somewhere Worth Remembering.",
+    "rights": "All rights reserved. Built for discerning global explorers."
+  },
+  "common": {
+    "offline": "Offline Mode active — Showing cached sanctuary data."
+  },
+  "toast": {
+    "favAdded": "Added to your saved sanctuaries vault.",
+    "favRemoved": "Removed from saved vault.",
+    "langChanged": "Language updated to {lang}.",
+    "saved": "Itinerary saved to your local device vault.",
+    "copied": "Share link copied to clipboard."
+  }
+}

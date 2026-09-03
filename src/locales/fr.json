@@ -1,0 +1,104 @@
+{
+  "nav": {
+    "brand": "WanderAI",
+    "explore": "Explorer",
+    "destinations": "Destinations",
+    "planner": "Planificateur IA",
+    "weather": "Météo",
+    "favorites": "Favoris",
+    "settings": "Paramètres",
+    "useLocation": "Me Localiser"
+  },
+  "hero": {
+    "badge": "Assistant de Voyage Autonome Propulsé par l'IA",
+    "headlinePrefix": "Partez Vers des Lieux Qui Valent la Peine d'",
+    "headlineSuffix": "Être Vécus.",
+    "subtitle": "Découvrez des destinations d'exception avec données météo en temps réel, itinéraires sur mesure et intelligence artificielle multilingue.",
+    "searchPlaceholder": "Où vous mène votre soif d'évasion ? (ex. Paris, Tokyo, Bali)...",
+    "cta": "Explorer l'Horizon"
+  },
+  "destinations": {
+    "title": "Horizons d'Exception",
+    "subtitle": "Douze sanctuaires choisis pour leur culture, architecture, gastronomie et beauté naturelle.",
+    "filterAll": "Toutes les Destinations",
+    "viewDetails": "Découvrir la Destination",
+    "featured": "Coup de Cœur du Conservateur",
+    "trending": "Tendance Mondiale",
+    "popular": "Sanctuaires Emblématiques",
+    "searchEmptyTitle": "Aucune destination trouvée",
+    "searchEmptyMsg": "Essayez de modifier vos critères de recherche.",
+    "clearFilters": "Réinitialiser les Filtres"
+  },
+  "detail": {
+    "about": "L'Expérience",
+    "quickFacts": "Informations Essentielles & Télémétrie",
+    "bestTime": "Saison Idéale",
+    "currency": "Devise",
+    "language": "Langue Officielle",
+    "timezone": "Fuseau Horaire",
+    "coordinates": "Coordonnées",
+    "famousPlaces": "Monuments Incontournables",
+    "travelTips": "Notes du Conservateur",
+    "liveWeather": "Radar Atmosphérique",
+    "planTrip": "Générer un Itinéraire IA",
+    "share": "Partager",
+    "copied": "Lien copié dans le presse-papiers."
+  },
+  "planner": {
+    "title": "Architecte d'Itinéraires par IA",
+    "subtitle": "Laissez Google Gemini concevoir votre expédition personnalisée au jour le jour.",
+    "step1": "Destination",
+    "step2": "Durée",
+    "step3": "Voyageurs",
+    "step4": "Budget",
+    "step5": "Style de Voyage",
+    "step6": "Centres d'Intérêt",
+    "step7": "Validation & Création",
+    "destinationLabel": "Sélectionnez votre Porte d'Entrée",
+    "destinationPlaceholder": "Ou indiquez n'importe quelle ville du monde...",
+    "daysLabel": "Durée du Séjour",
+    "daysUnit": "Jours",
+    "travelersLabel": "Composition du Voyage",
+    "budgetLabel": "Niveau de Confort Budgétaire",
+    "styleLabel": "Philosophie de Voyage",
+    "interestsLabel": "Intérêts Sélectionnés",
+    "generateBtn": "Concevoir Mon Expédition",
+    "generating": "Synthèse de votre itinéraire d'exception...",
+    "sharePlan": "Partager l'Itinéraire",
+    "savePlan": "Enregistrer dans mon Coffre",
+    "regenerate": "Régénérer"
+  },
+  "weather": {
+    "title": "Radar Météorologique",
+    "subtitle": "Télémétrie en temps réel et prévisions à 5 jours pour vos escapades.",
+    "searchPlaceholder": "Rechercher la météo d'une ville...",
+    "feelsLike": "Ressenti",
+    "humidity": "Humidité",
+    "wind": "Vitesse du vent",
+    "pressure": "Pression atmosphérique",
+    "visibility": "Visibilité",
+    "sunrise": "Lever du soleil",
+    "sunset": "Coucher du soleil",
+    "forecast": "Projection Météorologique à 5 Jours"
+  },
+  "ai": {
+    "title": "Concierge WanderAI",
+    "subtitle": "Compagnon de Voyage Autonome",
+    "placeholder": "Posez vos questions sur les monuments, bistrots, coutumes...",
+    "thinking": "Le concierge prépare vos recommandations..."
+  },
+  "footer": {
+    "tagline": "Partez vers des lieux qui valent la peine d'être vécus.",
+    "rights": "Tous droits réservés."
+  },
+  "common": {
+    "offline": "Mode hors-ligne actif — Affichage des données en cache."
+  },
+  "toast": {
+    "favAdded": "Ajouté à votre carnet de voyage.",
+    "favRemoved": "Retiré de votre carnet.",
+    "langChanged": "Langue modifiée en {lang}.",
+    "saved": "Itinéraire sauvegardé sur votre appareil.",
+    "copied": "Lien copié dans le presse-papiers."
+  }
+}
