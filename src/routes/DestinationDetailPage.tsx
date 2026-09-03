@@ -1,60 +1,112 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
+import { motion } from 'framer-motion';
 import {
-  Heart,
-  Share2,
+  ChevronLeft,
   Calendar,
-  Coins,
-  Globe,
   Clock,
   Compass,
+  Coins,
+  Globe,
+  Heart,
+  Share2,
   Sparkles,
   ArrowRight,
-  ChevronLeft,
-  CheckCircle2,
+  CheckCircle2
 } from 'lucide-react';
 import { getDestinationById } from '../data/destinationsData';
-import { fetchWeather, WeatherData } from '../services/weatherService';
-import { FamousPlacesStory } from '../components/destinations/FamousPlacesStory';
+import { Destination } from '../data/types';
+import { resolveDestination } from '../services/dynamicDestinationService';
 import { WeatherCard } from '../components/weather/WeatherCard';
+import { FamousPlacesStory } from '../components/destinations/FamousPlacesStory';
 import { AIChatDrawer } from '../components/ai/AIChatDrawer';
-import { useFavorites } from '../context/FavoritesContext';
-import { useToast } from '../context/ToastContext';
-import { useLanguage } from '../context/LanguageContext';
 import { Button } from '../components/common/Button';
+import { DestinationDiscoveryAnimation } from '../components/lottie/LottieAnimations';
+import { useFavorites } from '../context/FavoritesContext';
+import { useLanguage } from '../context/LanguageContext';
+import { useToast } from '../context/ToastContext';
+import { fetchWeather, WeatherData } from '../services/weatherService';
 
 export const DestinationDetailPage: React.FC = () => {
   const { id } = useParams<{ id: string }>();
   const navigate = useNavigate();
-  const { t } = useLanguage();
   const { isFavorite, toggleFavorite, addRecentlyViewed } = useFavorites();
+  const { t } = useLanguage();
   const { showToast } = useToast();
 
-  const destination = id ? getDestinationById(id) : undefined;
+  const [destination, setDestination] = useState<Destination | null>(null);
+  const [loading, setLoading] = useState<boolean>(true);
   const [weather, setWeather] = useState<WeatherData | null>(null);
-  const [weatherLoading, setWeatherLoading] = useState(true);
-  const [aiChatOpen, setAiChatOpen] = useState(false);
+  const [weatherLoading, setWeatherLoading] = useState<boolean>(true);
+  const [aiChatOpen, setAiChatOpen] = useState<boolean>(false);
 
   useEffect(() => {
-    if (destination) {
-      addRecentlyViewed(destination.id);
-      setWeatherLoading(true);
-      fetchWeather(destination.name, destination.coordinates.lat, destination.coordinates.lon)
-        .then((data) => setWeather(data))
-        .finally(() => setWeatherLoading(false));
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+
+    async function loadData() {
+      if (!id) return;
+      setLoading(true);
+
+      // 1. Static lookup
+      const staticDest = getDestinationById(id);
+      if (staticDest) {
+        setDestination(staticDest);
+        addRecentlyViewed(staticDest.id);
+        setLoading(false);
+        return;
+      }
+
+      // 2. Dynamic resolution via OpenStreetMap & Unsplash
+      const dynamicDest = await resolveDestination(id);
+      if (dynamicDest) {
+        setDestination(dynamicDest);
+        addRecentlyViewed(dynamicDest.id);
+      }
+      setLoading(false);
     }
-  }, [id, destination]);
+
+    loadData();
+  }, [id]);
+
+  useEffect(() => {
+    if (!destination) return;
+    setWeatherLoading(true);
+    fetchWeather(
+      destination.name,
+      destination.coordinates.lat,
+      destination.coordinates.lon
+    )
+      .then((data) => setWeather(data))
+      .catch((err) => console.error(err))
+      .finally(() => setWeatherLoading(false));
+  }, [destination]);
+
+  if (loading) {
+    return (
+      <div className="min-h-screen flex flex-col items-center justify-center pt-24 px-4 space-y-4">
+        <DestinationDiscoveryAnimation className="w-24 h-24" />
+        <h2 className="font-display text-2xl font-bold text-theme-text-primary text-center">
+          Synthesizing Worldwide Horizon...
+        </h2>
+        <p className="text-xs text-theme-text-secondary text-center max-w-md">
+          Resolving live geographic coordinates, Unsplash imagery, meteorological telemetry, and AI travel insights.
+        </p>
+      </div>
+    );
+  }
 
   if (!destination) {
     return (
-      <div className="pt-36 pb-20 text-center space-y-4">
-        <h2 className="font-display text-2xl font-bold text-theme-text-primary">
-          Destination Not Found
+      <div className="min-h-screen flex flex-col items-center justify-center pt-24 px-4 text-center">
+        <Compass className="w-16 h-16 text-theme-text-muted mb-4 animate-bounce" />
+        <h2 className="font-display text-2xl font-bold text-theme-text-primary mb-2">
+          Sanctuary Not Located
         </h2>
+        <p className="text-sm text-theme-text-secondary max-w-md mb-6">
+          The requested sanctuary coordinates could not be retrieved. Explore our planetary directory.
+        </p>
         <Link to="/destinations">
-          <Button variant="secondary" size="sm">
-            Back to Destinations
-          </Button>
+          <Button variant="primary">Explore Horizons</Button>
         </Link>
       </div>
     );
@@ -63,22 +115,24 @@ export const DestinationDetailPage: React.FC = () => {
   const favorited = isFavorite(destination.id);
 
   const handleToggleFav = () => {
-    const added = toggleFavorite(destination.id);
-    showToast(added ? t('toast.favAdded') : t('toast.favRemoved'), added ? 'success' : 'info');
+    toggleFavorite(destination.id);
+    showToast(
+      favorited ? t('toast.favRemoved') : t('toast.favAdded'),
+      favorited ? 'info' : 'success'
+    );
   };
 
   const handleShare = async () => {
     if (navigator.share) {
       try {
         await navigator.share({
-          title: `WanderAI — ${destination.name}`,
+          title: `${destination.name}, ${destination.country} — WanderAI`,
           text: destination.tagline,
           url: window.location.href,
         });
-        showToast(t('detail.copied'), 'success');
         return;
       } catch {
-        // Fallback
+        // Fallback to clipboard
       }
     }
     await navigator.clipboard.writeText(window.location.href);
@@ -87,6 +141,7 @@ export const DestinationDetailPage: React.FC = () => {
 
   return (
     <div className="space-y-20 pb-20">
+      {/* Hero Header */}
       <div className="relative min-h-[75vh] flex items-end pb-12 pt-28 overflow-hidden">
         <img
           src={destination.image}
@@ -147,7 +202,7 @@ export const DestinationDetailPage: React.FC = () => {
                 Ask Concierge
               </Button>
 
-              <Link to="/planner">
+              <Link to={`/planner?destination=${encodeURIComponent(destination.name)}`}>
                 <Button variant="secondary" size="md" icon={<ArrowRight className="w-4 h-4" />}>
                   Plan Itinerary
                 </Button>
@@ -158,6 +213,7 @@ export const DestinationDetailPage: React.FC = () => {
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-20">
+        {/* Quick Facts Section */}
         <section className="p-6 sm:p-8 rounded-3xl bg-theme-surface/75 backdrop-blur-2xl border border-theme-border shadow-glass">
           <h2 className="text-xs font-bold uppercase tracking-widest text-theme-text-muted mb-6">
             {t('detail.quickFacts')}
@@ -210,12 +266,13 @@ export const DestinationDetailPage: React.FC = () => {
                 <span>{t('detail.coordinates')}</span>
               </div>
               <div className="font-semibold text-sm text-theme-text-primary">
-                {destination.coordinates.lat}° N, {destination.coordinates.lon}° E
+                {destination.coordinates.lat.toFixed(2)}° N, {destination.coordinates.lon.toFixed(2)}° E
               </div>
             </div>
           </div>
         </section>
 
+        {/* Experience & Weather Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
           <div className="lg:col-span-6 space-y-4">
             <h2 className="font-display text-2xl sm:text-3xl font-bold text-theme-text-primary">
@@ -242,32 +299,46 @@ export const DestinationDetailPage: React.FC = () => {
           </div>
 
           <div className="lg:col-span-6">
-            <WeatherCard
-              weather={weather}
-              loading={weatherLoading}
-              onRetry={() => {
-                setWeatherLoading(true);
-                fetchWeather(destination.name, destination.coordinates.lat, destination.coordinates.lon)
-                  .then((data) => setWeather(data))
-                  .finally(() => setWeatherLoading(false));
-              }}
-            />
+            {weather ? (
+              <WeatherCard
+                weather={weather}
+                loading={weatherLoading}
+                onRetry={() => {
+                  setWeatherLoading(true);
+                  fetchWeather(
+                    destination.name,
+                    destination.coordinates.lat,
+                    destination.coordinates.lon
+                  )
+                    .then((data) => setWeather(data))
+                    .finally(() => setWeatherLoading(false));
+                }}
+              />
+            ) : (
+              <div className="p-8 rounded-3xl bg-theme-surface/75 border border-theme-border text-center">
+                <Compass className="w-8 h-8 text-theme-accent mx-auto animate-spin mb-2" />
+                <p className="text-xs text-theme-text-muted">Loading live weather telemetry...</p>
+              </div>
+            )}
           </div>
         </div>
 
-        <section className="space-y-12">
-          <div>
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-theme-accent/20 border border-theme-accent/40 text-theme-accent text-xs font-semibold uppercase mb-2">
-              <Compass className="w-3.5 h-3.5" />
-              <span>Visual Storytelling</span>
+        {/* Visual Storytelling Landmarks */}
+        {destination.famousPlaces && destination.famousPlaces.length > 0 && (
+          <section className="space-y-12">
+            <div>
+              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-theme-accent/20 border border-theme-accent/40 text-theme-accent text-xs font-semibold uppercase mb-2">
+                <Compass className="w-3.5 h-3.5" />
+                <span>Visual Storytelling</span>
+              </div>
+              <h2 className="font-display text-3xl sm:text-4xl font-extrabold text-theme-text-primary">
+                {t('detail.famousPlaces')}
+              </h2>
             </div>
-            <h2 className="font-display text-3xl sm:text-4xl font-extrabold text-theme-text-primary">
-              {t('detail.famousPlaces')}
-            </h2>
-          </div>
 
-          <FamousPlacesStory places={destination.famousPlaces} />
-        </section>
+            <FamousPlacesStory places={destination.famousPlaces} />
+          </section>
+        )}
       </div>
 
       <AIChatDrawer
